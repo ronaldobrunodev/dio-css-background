@@ -1,0 +1,92 @@
+
+code{
+    font-size: 22px;
+    
+}
+div{
+    margin-bottom: 30px;    
+}
+span {   
+    font-size: 50px;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.exemplo{    
+    width: 300px;
+    height: 300px;   
+    /*background-image: url(scr/img/foto.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;*/
+    background-image: url(scr/img/foto.jpg);
+    background-color: rgb(43, 78, 237);
+    background-blend-mode: luminosity;
+    border: 15px dashed blue;
+    padding:30px; 
+    font-size: 40px;  
+    font-weight: 900;
+    color: white;
+}
+#padding-box{
+    background-clip: padding-box;
+}
+#border-box{
+    background-clip: border-box;
+}
+#content-box{
+    background-clip: content-box;
+    color: transparent;    
+}
+#text{
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 5px solid black;
+    background-clip: text;
+    background-image: url(scr/img/foto.jpg);
+  
+}
+#padding-box{
+    background-origin: padding-box;
+}
+#border-box{
+    background-origin: border-box;
+}
+#content-box{
+    background-origin: content-box;
+}
+#fixed{
+    background-attachment: fixed;
+}
+#scroll{
+    background-attachment: scroll;
+}
+#local{
+    background-attachment: local;
+}
+
+#contain{
+    background-size: contain;
+}
+#valor{
+    background-size: 50%;
+}
+#x-y{
+    background-size: 200px 100%;
+}
+#exemplo-camada{
+    background-size: contain, cover;
+}
+#repeat-x{
+    background-repeat: repeat-x;
+}
+#repeat-y{
+    background-repeat: repeat-y;
+}
+#space{
+    background-repeat: space;
+}
+#round{
+    background-repeat: round;
+}
+#no-repeat{
+    background-repeat: no-repeat;
+}
